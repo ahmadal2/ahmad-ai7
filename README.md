@@ -27,4 +27,4 @@ An AI-powered chat application integrated with Google's Gemini API and Anthropic
   - Google Gemini Flash and Pro models
   - Anthropic Claude 3.5 Sonnet and Claude 3 Opus
 - Designed for deployment in Google AI Studio (linked)
-- Built for local development and extensible UI customization
+- Built for local development and extensible UI customization# ahmad-ai7
