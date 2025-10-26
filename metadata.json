@@ -1,0 +1,7 @@
+{
+  "name": "AI Agent Chat",
+  "description": "An empathetic, expert AI assistant that helps people solve problems quickly and safely — via chat, tools, and helpful web-ready outputs.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

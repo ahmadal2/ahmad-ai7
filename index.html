@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Agent Chat</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ Importmap: force all packages to use the same React version -->
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "@google/genai": "https://esm.sh/@google/genai@1.26.0?deps=react@18.2.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.417.0?deps=react@18.2.0",
+    "clsx": "https://esm.sh/clsx@2.1.1",
+    "tailwind-merge": "https://esm.sh/tailwind-merge@2.4.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.3.12?deps=react@18.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+
+    <style>
+      body {
+        background-color: #0d0d1a; /* Dark blue/black base */
+        background-image:
+          radial-gradient(at 80% 20%, hsla(28, 100%, 50%, 0.15) 0px, transparent 50%),
+          radial-gradient(at 50% 120%, hsla(230, 100%, 70%, 0.2) 0px, transparent 50%);
+        color: #e5e7eb; /* Default text color */
+      }
+      .glassmorphism {
+        background: rgba(28, 28, 30, 0.5); /* Semi-transparent dark grey */
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+  <body class="text-zinc-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
